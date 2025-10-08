@@ -17,22 +17,22 @@ const Banner = () => {
             <img className='mx-auto lg:w-[750px]' src={hero} alt="" />
 
             <div className='bg-[linear-gradient(125.04deg,_#632EE3_5.68%,_#9F62F2_88.38%)] text-white py-6 rounded-2xl'>
-                <h1 className='font-bold text-[42px] mb-[26px]'>Trusted by Millions, Built for You</h1>
+                <h1 className='font-bold lg:text-[42px] mb-3 lg:mb-[26px]'>Trusted by Millions, Built for You</h1>
                 <div className='flex justify-evenly items-center '>
                     <div>
-                        <p className='font-[400] text-[16px]'>Total Downloads</p>
-                        <h1 className='font-extrabold text-[64px] leading-tight'>29.6M</h1>
-                        <p>21% more than last month</p>
+                        <p className=' text-[11px] font-[400] lg:text-[16px]'>Total Downloads</p>
+                        <h1 className='font-extrabold lg:text-[64px] leading-tight'>29.6M</h1>
+                        <p className='text-[10px] lg:text-[16px]'>21% more than last month</p>
                     </div>
                     <div>
-                        <p>Total Reviews</p>
-                        <h1 className='font-extrabold text-[64px] leading-tight'>906K</h1>
-                        <p>46% more than last month</p>
+                        <p className='text-[11px] lg:text-[16px]'>Total Reviews</p>
+                        <h1 className='font-extrabold lg:text-[64px] leading-tight'>906K</h1>
+                        <p className='text-[10px] lg:text-[16px]'>46% more than last month</p>
                     </div>
                     <div>
-                        <p>Active Apps</p>
-                        <h1 className='font-extrabold text-[64px] leading-tight'>132+</h1>
-                        <p>31 more will Launch</p>
+                        <p className='text-[11px] lg:text-[16px]'>Active Apps</p>
+                        <h1 className='font-extrabold lg:text-[64px] leading-tight'>132+</h1>
+                        <p className='text-[10px] lg:text-[16px]'>31 more will Launch</p>
                     </div>
                 </div>
             </div>

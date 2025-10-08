@@ -9,8 +9,9 @@ const Root = () => {
             
                
            
-            <Nav></Nav>
-           <div className='w-[1200px] mx-auto'>
+            
+           <div className='lg:w-[1200px] mx-auto'>
+                <Nav></Nav>
                 
                 <Outlet></Outlet>
            </div>
