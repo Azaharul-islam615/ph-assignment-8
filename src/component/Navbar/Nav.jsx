@@ -5,10 +5,10 @@ import { Link } from 'react-router';
 
 const Nav = () => {
     const links=<>
-        <Link to="/"> <li ><a ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Home</p></a></li></Link>
+        <Link to="/"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Home</p></li></Link>
 
-        <li ><a><p className='hover:text-[#632EE3] hover:border-b-2 para'>Apps</p></a></li>
-        <li ><a><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></a></li>
+        <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Apps</p></li>
+        <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-md rounded-md">
@@ -26,7 +26,7 @@ const Nav = () => {
                <a href="/">
                     <div className='flex items-center '>
                         <img className='w-[50px]' src={logo} alt="" />
-                        <a className="btn btn-ghost lg:text-xl text-[#632EE3]">HERO.IO</a>
+                        <h1 className="btn btn-ghost lg:text-xl text-[#632EE3]">HERO.IO</h1>
                     </div>
                </a>
             </div>

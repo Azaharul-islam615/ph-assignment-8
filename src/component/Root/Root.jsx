@@ -6,6 +6,10 @@ import { Outlet } from 'react-router';
 const Root = () => {
     return (
         <div className='fontfamily'>
+            
+               
+           
+
            <div className='max-w-[1200px] mx-auto'>
                 <Nav></Nav>
                 <Outlet></Outlet>
