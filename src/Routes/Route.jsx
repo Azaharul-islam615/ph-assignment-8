@@ -12,7 +12,7 @@ const appDataFetch=fetch("/app.json").then(res=>res.json())
         errorElement:<Errorpage></Errorpage>,
         children:[
             {index:true,path:"/", 
-                element: <Suspense >
+                element: <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
                     <Home appDataFetch={appDataFetch}></Home>
                 </Suspense>}
         ]

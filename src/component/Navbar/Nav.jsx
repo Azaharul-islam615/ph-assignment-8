@@ -11,7 +11,7 @@ const Nav = () => {
         <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow-md rounded-md">
+        <div className="navbar bg-base-100 shadow-md rounded-md ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
