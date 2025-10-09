@@ -32,7 +32,9 @@ const allAppsfetch=fetch("/apps.json").then(res=>res.json())
                 },
                 {
                     path:"/install",
-                    element: <Installetion allAppsfetch={allAppsfetch}></Installetion>
+                    element: <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+                        <Installetion allAppsfetch={allAppsfetch}></Installetion>
+                    </Suspense>
                 }
         ]
     }

@@ -1,9 +1,14 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import Allapp from './Allapp';
 import { FaSearch } from "react-icons/fa";
+import Apperror from './Apperror';
 
 const Allapps = ({ allAppsfetch }) => {
+    const [search,setSearch]=useState("")
     const allapps = use(allAppsfetch)
+    const items=search.trim().toLocaleLowerCase()
+    const searchApp=items?allapps.filter(app=>app.title.toLocaleLowerCase().includes(items)):allapps
+    console.log(searchApp)
     
     return (
         <div className='text-center mt-[40px] px-2'>
@@ -11,10 +16,10 @@ const Allapps = ({ allAppsfetch }) => {
             <p className='font-[400] text-[14px] lg:text-[20px] text-[#627382] mb-7'>Explore All Apps on the Market developed by us. We code for Millions</p>
            <div>
             <div className='flex justify-between items-center mb-5'>
-                    <h1 className='font-semibold text-[16px] lg:text-[24px]'>({allapps.length}) Apps Found</h1>
+                    <h1 className='font-semibold text-[16px] lg:text-[24px]'>({searchApp.length}) Apps Found</h1>
                     <div className="relative">
                         <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
-                        <input
+                        <input value={search} onChange={(e) =>setSearch(e.target.value)}
                             className="text-[12px] border pl-10 pr-2 py-1 outline-0 rounded-lg border-gray-300 focus:ring-2 focus:ring-blue-400"
                             type="search"
                             placeholder="Search app"
@@ -23,7 +28,7 @@ const Allapps = ({ allAppsfetch }) => {
             </div>
                 <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-3 '>
                     {
-                        allapps.map(oneapp => <Allapp oneapp={oneapp} key={oneapp.id}></Allapp>)
+                        searchApp.length>0? searchApp.map(oneapp => <Allapp oneapp={oneapp} key={oneapp.id}></Allapp>):<Apperror></Apperror>
                     }
                 </div>
            </div>

@@ -42,7 +42,7 @@ const Installetion = ({ allAppsfetch }) => {
                 <h1 className='font-semibold text-[20px] lg:text-[24px]'>{installed.length} Apps Found</h1>
                     {/* change popover-1 and --anchor-1 names. Use unique names for each dropdown */}
                     {/* For TSX uncomment the commented types below */}
-                    <button className="btn" popoverTarget="popover-1" style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}>
+                    <button className="btn text-[#627382]" popoverTarget="popover-1" style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}>
                         Sort By:{sort?sort:""} <FaAngleDown></FaAngleDown>
                     </button>
 

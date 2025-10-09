@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaStar } from 'react-icons/fa';
+import { FaCheckCircle, FaStar } from 'react-icons/fa';
 import { GoDownload } from 'react-icons/go';
 import { toast } from 'react-toastify';
 import { removeFromLocalStorage } from './addtoLacalStorage';
 
 const Installed = ({ installedapp,  handleId }) => {
    const handledeUnstall=()=>{
-    toast(<div><h1>Unstall Successfully</h1></div>)
+       toast(<div className='flex items-center gap-1'><h1><FaCheckCircle className='text-green-500'></FaCheckCircle> </h1><h2>Unstall Successfully</h2></div>)
        
        handleId(installedapp.id)
       
@@ -16,7 +16,7 @@ const Installed = ({ installedapp,  handleId }) => {
     
    }
     return (
-        <div className='shadow-md p-2 mb-3 border-t-1 border-gray-200 flex items-center justify-between'>
+        <div className='shadow-md p-2 mb-3 border-t-1 border-gray-200 flex items-center justify-between rounded-lg'>
             <div className=' flex items-center gap-4 '>
                 <img className='w-[70px] h-[70px] lg:w-[150px] lg:h-[100px]  rounded-lg' src={installedapp.image} alt="" />
                 <div>
@@ -38,7 +38,7 @@ const Installed = ({ installedapp,  handleId }) => {
                 </div>
 
             </div>
-            <button onClick={handledeUnstall} className="btn btn-primary">Uninstall</button>
+            <button onClick={handledeUnstall} className="btn btn-primary bg-green-500 text-[18px]">Uninstall</button>
         </div>
     );
 };
