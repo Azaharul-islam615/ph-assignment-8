@@ -4,11 +4,12 @@ import logo from"../../assets/logo.png"
 import { Link } from 'react-router';
 
 const Nav = () => {
+   
     const links=<>
         <Link to="/"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Home</p></li></Link>
 
         <Link to="/apps"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Apps</p></li></Link>
-        <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li>
+        <Link to="/install"><li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li></Link>
     </>
     return (
         <div className="navbar bg-base-100 shadow-md rounded-md lg:px-9 ">
@@ -38,6 +39,8 @@ const Nav = () => {
             <div className="navbar-end ">
                 <a href='https://github.com/Azaharul-islam615' className="btn bg-[linear-gradient(90deg,_#992EE3_0%,_#54197D_100%)] text-white text-[15px] "><Github className='bg-white text-black rounded-full lg:w-[25px] h-[25px] p-[2px]'></Github> Contribute</a>
             </div>
+
+            
         </div>
     );
 };

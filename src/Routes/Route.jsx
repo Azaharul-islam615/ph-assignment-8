@@ -5,10 +5,13 @@ import Errorpage from '../component/Errorpage/Errorpage';
 import Home from '../component/Home';
 import Allapps from '../component/Allapps';
 import Appdetail from '../component/Appdetail';
+import Installetion from '../component/Installetion';
 const appDataFetch=fetch("/app.json").then(res=>res.json())
 const allAppsfetch=fetch("/apps.json").then(res=>res.json())
 
+
  export const router = createBrowserRouter([
+   
     {
         path: "/",
         Component:Root,
@@ -25,7 +28,11 @@ const allAppsfetch=fetch("/apps.json").then(res=>res.json())
                    </Suspense>
                 },
                 {path:"/appdetail/:id",
-                    element: <Appdetail allAppsfetch={allAppsfetch}></Appdetail>
+                element: <Appdetail allAppsfetch={allAppsfetch}></Appdetail>
+                },
+                {
+                    path:"/install",
+                    element: <Installetion allAppsfetch={allAppsfetch}></Installetion>
                 }
         ]
     }

@@ -2,13 +2,18 @@ import React from 'react';
 import { CiStar } from 'react-icons/ci';
 import { FaStar } from 'react-icons/fa';
 import { GoDownload } from 'react-icons/go';
+import { useNavigate } from 'react-router';
 
 const App = ({app}) => {
-    const { title,
+    const navigate=useNavigate()
+    const handlecart=()=>{
+        navigate(`/appdetail/${id}`)
+    }
+    const { id,title,
         description
         , downloads, ratingAvg, image }=app
     return (
-        <div className="card bg-base-100 lg:w-72 shadow-sm p-3 ">
+        <div onClick={handlecart} className="card bg-base-100 lg:w-72 shadow-sm p-3 ">
             <figure>
                 <img className='w-full rounded-xl h-[240px]  '
                     src={image} />

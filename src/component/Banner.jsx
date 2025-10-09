@@ -5,7 +5,7 @@ import { FaAppStoreIos, FaGooglePlay } from 'react-icons/fa';
 const Banner = () => {
     return (
         <div className='text-center mt-6 lg:mt-10 p-3'>
-            <h1 className='font-bold lg:text-[65px] leading-tight mb-3'>We Build <br />
+            <h1 className='font-bold text-[30px] lg:text-[65px] leading-tight mb-3'>We Build <br />
                 <span className='text-[#632EE3]'>Productive</span> Apps
                 </h1>
             
