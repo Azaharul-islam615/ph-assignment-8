@@ -24,7 +24,7 @@ const Allapps = () => {
 
             setSearchapp(findapp);
             setLoading(false);
-        }, 500); 
+        }, 300); 
     };
 
     return (

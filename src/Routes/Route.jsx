@@ -16,14 +16,14 @@ const allAppsfetch = fetch("/apps.json").then(res => res.json())
     {
         path: "/",
         Component:Root,
-        errorElement:<Errorpage></Errorpage>,
+       
         children:[
             {index:true,path:"/", 
+               
                 loader: () => fetch("/app.json"),
-                Component:Home
-            } , 
-                    
+                Component:Home,
                 
+            } ,
                 {
                     path:"/apps",
                     loader: () => fetch("/apps.json"),
@@ -40,6 +40,10 @@ const allAppsfetch = fetch("/apps.json").then(res => res.json())
                      Component:Installetion
                        
                     
+                },
+                {
+                    path:"*",
+                    Component:Errorpage
                 }
         ]
     }

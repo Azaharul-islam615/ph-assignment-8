@@ -13,7 +13,7 @@ const Root = () => {
            <div className='lg:w-[1200px] mx-auto'>
                 <Nav></Nav>
                 
-                {isNavigating && <span className="loading loading-dots loading-xl"></span>}
+                {isNavigating && <div className='w-[200px] mx-auto text-center mt-4'><span className="loading loading-dots loading-xl"></span></div>}
                     <Outlet></Outlet>
                 
            </div>

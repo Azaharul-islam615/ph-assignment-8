@@ -1,15 +1,16 @@
 import { Github } from 'lucide-react';
 import React from 'react';
 import logo from"../../assets/logo.png"
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
+import"../../App.css"
 
 const Nav = () => {
    
     const links=<>
-        <Link to="/"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Home</p></li></Link>
+        <NavLink to="/"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Home</p></li></NavLink>
 
-        <Link to="/apps"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Apps</p></li></Link>
-        <Link to="/install"><li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li></Link>
+        <NavLink to="/apps"> <li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Apps</p></li></NavLink>
+        <NavLink to="/install"><li ><p className='hover:text-[#632EE3] hover:border-b-2 para'>Installation</p></li></NavLink>
     </>
     return (
         <div className="navbar bg-base-100 shadow-md rounded-md lg:px-9 ">
