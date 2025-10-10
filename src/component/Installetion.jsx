@@ -1,13 +1,15 @@
-import React, { use, useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import { getStoreApp } from './addtoLacalStorage';
 import Installed from './Installed';
 import { FaAngleDown } from 'react-icons/fa';
+import { useLoaderData } from 'react-router';
 
-const Installetion = ({ allAppsfetch }) => {
+const Installetion = () => {
     
     const [installed,setInstalled]=useState([])
     const [sort,setSort]=useState("")
-    const appdetails = use(allAppsfetch)
+    
+    const load=useLoaderData()
     
     const handleId=(id)=>{
         const remove=installed.filter(appremove=>appremove.id!==id)
@@ -18,7 +20,7 @@ const Installetion = ({ allAppsfetch }) => {
     useEffect(()=>{
         const storeappData = getStoreApp()
         const convertedapp=storeappData.map(app=>parseInt(app))
-        const myapp=appdetails.filter(app=>convertedapp.includes(app.id))
+        const myapp=load.filter(app=>convertedapp.includes(app.id))
         setInstalled(myapp)
         
     },[])

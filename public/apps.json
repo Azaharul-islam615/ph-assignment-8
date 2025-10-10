@@ -1,21 +1,21 @@
 [
 
-    {
+   {
     "image": "https://i.ibb.co.com/j9BgHFDh/try.webp",
     "title": "TaskMaster Pro",
     "companyName": "NextGen Solutions",
     "id": 1,
-    "description": "Boost productivity with smart task automation and team collaboration tools.",
+    "description": "TaskMaster Pro is a powerful productivity suite that helps individuals and teams stay organized, automate repetitive work, and collaborate efficiently. With smart reminders, progress tracking, and integrated task boards, it ensures seamless workflow and increased output, making it perfect for professionals managing multiple projects simultaneously.",
     "size": 85,
     "reviews": 12,
     "ratingAvg": 4.6,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 350 },
-      { "name": "2 star", "count": 420 },
-      { "name": "3 star", "count": 900 },
+      { "name": "5 star", "count": 7586 },
       { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 7586 }
+      { "name": "3 star", "count": 900 },
+      { "name": "2 star", "count": 420 },
+      { "name": "1 star", "count": 350 }
     ]
   },
   {
@@ -23,17 +23,17 @@
     "title": "FitTrack",
     "companyName": "Healthify Labs",
     "id": 2,
-    "description": "Personalized fitness tracking app with AI-based health recommendations.",
+    "description": "FitTrack is an advanced health companion app that monitors your daily fitness goals, sleep quality, and nutrition. Powered by AI, it provides customized exercise plans and real-time progress insights. Stay motivated, improve your lifestyle, and achieve your health targets with an intuitive dashboard and smart recommendations tailored just for you.",
     "size": 92,
     "reviews": 18,
     "ratingAvg": 4.8,
     "downloads": 7.5,
     "ratings": [
-      { "name": "1 star", "count": 210 },
-      { "name": "2 star", "count": 320 },
-      { "name": "3 star", "count": 740 },
+      { "name": "5 star", "count": 13630 },
       { "name": "4 star", "count": 4000 },
-      { "name": "5 star", "count": 13630 }
+      { "name": "3 star", "count": 740 },
+      { "name": "2 star", "count": 320 },
+      { "name": "1 star", "count": 210 }
     ]
   },
   {
@@ -41,17 +41,17 @@
     "title": "PhotoFusion",
     "companyName": "PixelSoft Studios",
     "id": 3,
-    "description": "Create stunning photo edits and AI-generated effects effortlessly.",
+    "description": "PhotoFusion lets users create breathtaking photo edits with just a few taps. Using AI-based filters, background removers, and lighting tools, it turns ordinary images into stunning artworks. Whether you’re a beginner or professional, PhotoFusion gives you control, creativity, and quality in one easy-to-use editing platform.",
     "size": 110,
     "reviews": 96,
     "ratingAvg": 4.4,
     "downloads": 32,
     "ratings": [
-      { "name": "1 star", "count": 520 },
-      { "name": "2 star", "count": 730 },
-      { "name": "3 star", "count": 1200 },
+      { "name": "5 star", "count": 4100 },
       { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 4100 }
+      { "name": "3 star", "count": 1200 },
+      { "name": "2 star", "count": 730 },
+      { "name": "1 star", "count": 520 }
     ]
   },
   {
@@ -59,17 +59,17 @@
     "title": "BudgetWise",
     "companyName": "FinEdge Pvt Ltd",
     "id": 4,
-    "description": "Smart expense tracker and budgeting app with monthly analytics.",
+    "description": "BudgetWise helps users take control of their finances with smart expense tracking, budgeting, and insightful analytics. Automatically categorize transactions, view monthly spending trends, and receive savings tips. Perfect for anyone looking to manage money efficiently and achieve financial stability with ease and confidence.",
     "size": 68,
     "reviews": 21,
     "ratingAvg": 4.7,
     "downloads": 68,
     "ratings": [
-      { "name": "1 star", "count": 410 },
-      { "name": "2 star", "count": 560 },
-      { "name": "3 star", "count": 1500 },
+      { "name": "5 star", "count": 14030 },
       { "name": "4 star", "count": 5000 },
-      { "name": "5 star", "count": 14030 }
+      { "name": "3 star", "count": 1500 },
+      { "name": "2 star", "count": 560 },
+      { "name": "1 star", "count": 410 }
     ]
   },
   {
@@ -77,17 +77,17 @@
     "title": "LangHero",
     "companyName": "EduTech Global",
     "id": 5,
-    "description": "Learn new languages through gamified lessons and voice AI assistance.",
+    "description": "LangHero is a gamified language learning app that combines fun and education. Through voice AI, interactive lessons, and daily challenges, it helps you master new languages effectively. With rewards, achievements, and personalized progress tracking, LangHero keeps you motivated throughout your learning journey.",
     "size": 120,
     "reviews": 17,
     "ratingAvg": 4.9,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 260 },
-      { "name": "3 star", "count": 650 },
+      { "name": "5 star", "count": 12310 },
       { "name": "4 star", "count": 4000 },
-      { "name": "5 star", "count": 12310 }
+      { "name": "3 star", "count": 650 },
+      { "name": "2 star", "count": 260 },
+      { "name": "1 star", "count": 180 }
     ]
   },
   {
@@ -95,17 +95,17 @@
     "title": "NoteNinja",
     "companyName": "CodePeak Apps",
     "id": 6,
-    "description": "Capture, organize, and sync your notes seamlessly across all devices.",
+    "description": "NoteNinja is a modern note-taking app that allows you to capture ideas instantly and organize them effortlessly. It supports cloud sync, voice notes, and tagging features. Perfect for students, writers, and professionals who want quick access to thoughts across all devices anytime, anywhere.",
     "size": 58,
     "reviews": 820,
     "ratingAvg": 4.3,
     "downloads": 21,
     "ratings": [
-      { "name": "1 star", "count": 390 },
-      { "name": "2 star", "count": 580 },
-      { "name": "3 star", "count": 1100 },
+      { "name": "5 star", "count": 3530 },
       { "name": "4 star", "count": 2600 },
-      { "name": "5 star", "count": 3530 }
+      { "name": "3 star", "count": 1100 },
+      { "name": "2 star", "count": 580 },
+      { "name": "1 star", "count": 390 }
     ]
   },
   {
@@ -113,17 +113,17 @@
     "title": "TravelMate",
     "companyName": "SkyBound Tech",
     "id": 7,
-    "description": "Plan trips, book hotels, and explore destinations all in one app.",
+    "description": "TravelMate simplifies trip planning by combining flight, hotel, and destination information in one platform. Get personalized travel suggestions, manage itineraries, and explore attractions near you. Whether for business or leisure, TravelMate ensures every journey is memorable and hassle-free.",
     "size": 95,
     "reviews": 158,
     "ratingAvg": 4.5,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 480 },
-      { "name": "2 star", "count": 690 },
-      { "name": "3 star", "count": 1250 },
+      { "name": "5 star", "count": 9780 },
       { "name": "4 star", "count": 3600 },
-      { "name": "5 star", "count": 9780 }
+      { "name": "3 star", "count": 1250 },
+      { "name": "2 star", "count": 690 },
+      { "name": "1 star", "count": 480 }
     ]
   },
   {
@@ -131,17 +131,17 @@
     "title": "MusicFlow",
     "companyName": "SoundWave Ltd",
     "id": 8,
-    "description": "Stream, discover, and share your favorite music with AI recommendations.",
+    "description": "MusicFlow is your ultimate music companion for streaming, discovering, and sharing songs. It curates playlists based on mood and preference using AI. With a clean interface, high-quality audio, and offline playback, MusicFlow makes listening an engaging and enjoyable experience for everyone.",
     "size": 130,
     "reviews": 242,
     "ratingAvg": 4.8,
     "downloads": 12,
     "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 480 },
-      { "name": "3 star", "count": 890 },
+      { "name": "5 star", "count": 18100 },
       { "name": "4 star", "count": 4500 },
-      { "name": "5 star", "count": 18100 }
+      { "name": "3 star", "count": 890 },
+      { "name": "2 star", "count": 480 },
+      { "name": "1 star", "count": 320 }
     ]
   },
   {
@@ -149,17 +149,17 @@
     "companyName": "WhatsApp LLC",
     "title": "Whatsapp",
     "id": 9,
-    "description": "Fast, simple, and secure messaging app to connect with friends and family.",
+    "description": "WhatsApp is a secure messaging platform that allows you to stay in touch with family and friends. Send instant messages, share media, and make crystal-clear calls globally. With end-to-end encryption, group chats, and cross-device sync, it keeps communication simple, private, and efficient.",
     "size": 180,
     "reviews": 155,
     "ratingAvg": 4.3,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 3000000 },
+      { "name": "5 star", "count": 130000000 },
       { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 130000000 }
+      { "name": "3 star", "count": 3000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "1 star", "count": 2000000 }
     ]
   },
   {
@@ -167,17 +167,17 @@
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 10,
-    "description": "Connect with friends, share updates, photos, and videos instantly.",
+    "description": "Facebook is a global social platform that connects billions of people every day. It lets users share photos, updates, and stories instantly, engage with friends, join groups, and follow pages of interest. Stay connected, informed, and entertained while discovering new communities around the world.",
     "size": 250,
     "reviews": 120,
     "ratingAvg": 4.1,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 7000000 },
+      { "name": "5 star", "count": 80000000 },
       { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 80000000 }
+      { "name": "3 star", "count": 7000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "1 star", "count": 5000000 }
     ]
   },
   {
@@ -185,17 +185,17 @@
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 11,
-    "description": "A platform for sharing photos, reels, and stories with friends and followers.",
+    "description": "Instagram is a visual-first platform that allows users to share photos, reels, and stories creatively. It connects you with followers, influencers, and brands worldwide. Discover trends, express yourself artistically, and build your online presence using advanced tools and engaging social features.",
     "size": 220,
     "reviews": 130,
     "ratingAvg": 4.4,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 6000000 },
+      { "name": "5 star", "count": 100000000 },
       { "name": "4 star", "count": 20000000 },
-      { "name": "5 star", "count": 100000000 }
+      { "name": "3 star", "count": 6000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "1 star", "count": 3000000 }
     ]
   },
   {
@@ -203,35 +203,35 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 12,
-    "description": "Watch, share, and create videos from around the world.",
+    "description": "YouTube is the world’s largest video-sharing platform where users can watch, upload, and create content on any topic imaginable. From tutorials to music, news, and entertainment — it connects millions of creators with viewers globally and powers the creator economy through monetization tools.",
     "size": 180,
-    "reviews": 11,
+    "reviews": 110,
     "ratingAvg": 4.5,
     "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 4000000 },
+      { "name": "5 star", "count": 90000000 },
       { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 90000000 }
+      { "name": "3 star", "count": 4000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "1 star", "count": 2000000 }
     ]
   },
   {
     "image": "https://i.ibb.co.com/RkH0ZPwz/tiktok-icon-6739343-1280.webp",
     "title": "TikTok",
-    "companyName": "ByteDance",
+    "companyName": "ByteDance Ltd.",
     "id": 13,
-    "description": "Create and watch short videos from creators around the globe.",
+    "description": "TikTok brings creativity to life through short, engaging videos from creators around the world. Discover trending content, create your own clips, and join global challenges. Its AI-driven feed ensures you always see what you love, making it a hub for entertainment and viral creativity.",
     "size": 190,
     "reviews": 950,
     "ratingAvg": 4.2,
     "downloads": 3,
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
+      { "name": "5 star", "count": 65000000 },
       { "name": "4 star", "count": 18000000 },
-      { "name": "5 star", "count": 65000000 }
+      { "name": "3 star", "count": 5000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "1 star", "count": 3000000 }
     ]
   },
   {
@@ -239,35 +239,35 @@
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 14,
-    "description": "Share moments instantly with friends using photos and short videos.",
+    "description": "Snapchat lets you capture and share real moments through photos and short videos called Snaps. With fun filters, Bitmojis, and AR effects, it makes communication playful and personal. Connect instantly with friends while maintaining privacy through disappearing messages and streaks.",
     "size": 180,
     "reviews": 80,
     "ratingAvg": 4.2,
     "downloads": 2,
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 4000000 },
+      { "name": "5 star", "count": 60000000 },
       { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 60000000 }
+      { "name": "3 star", "count": 4000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "1 star", "count": 2000000 }
     ]
   },
   {
     "image": "https://i.ibb.co.com/gL30KnBP/twitter-6549806-1280.webp",
-    "title": "Twitter",
+    "title": "Twitter (X)",
     "companyName": "X Corp.",
     "id": 15,
-    "description": "Share your thoughts, news, and ideas in real-time.",
+    "description": "Twitter, now rebranded as X, is a microblogging platform that allows users to share ideas, opinions, and news in real time. It fosters global conversations, trending discussions, and instant updates. Perfect for professionals, creators, and anyone who wants to stay informed and connected.",
     "size": 170,
     "reviews": 70,
     "ratingAvg": 4.1,
     "downloads": 2,
     "ratings": [
-      { "name": "1 star", "count": 2500000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 3500000 },
+      { "name": "5 star", "count": 53000000 },
       { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 53000000 }
+      { "name": "3 star", "count": 3500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "1 star", "count": 2500000 }
     ]
   },
   {
@@ -275,17 +275,17 @@
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 16,
-    "description": "Cloud-based messaging app focusing on speed and security.",
+    "description": "Telegram is a fast, secure messaging app that lets you connect with friends and groups globally. Share media, chat, and enjoy private cloud storage safely and instantly.",
     "size": 90,
     "reviews": 60,
     "ratingAvg": 4.6,
     "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2000000 },
+      { "name": "5 star", "count": 48000000 },
       { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 48000000 }
+      { "name": "3 star", "count": 2000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "1 star", "count": 1000000 }
     ]
   },
   {
@@ -293,17 +293,17 @@
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 17,
-    "description": "Secure email app that keeps your messages organized and safe.",
+    "description": "Gmail keeps your emails organized and secure. Access messages anytime, search quickly, and manage multiple accounts effortlessly. Perfect for personal and professional communication needs.",
     "size": 160,
     "reviews": 85,
     "ratingAvg": 4.5,
     "downloads": 1,
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 3000000 },
+      { "name": "5 star", "count": 68000000 },
       { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 68000000 }
+      { "name": "3 star", "count": 3000000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "1 star", "count": 1000000 }
     ]
   },
   {
@@ -311,17 +311,17 @@
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 18,
-    "description": "Navigate the world faster and easier with accurate maps and directions.",
+    "description": "Navigate easily with Google Maps. Find routes, explore places, get live traffic updates, and discover local businesses. Plan trips and travel confidently using accurate maps.",
     "size": 210,
     "reviews": 90,
     "ratingAvg": 4.5,
     "downloads": 9.5,
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1000000 },
-      { "name": "3 star", "count": 2500000 },
+      { "name": "5 star", "count": 72000000 },
       { "name": "4 star", "count": 13000000 },
-      { "name": "5 star", "count": 72000000 }
+      { "name": "3 star", "count": 2500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "1 star", "count": 1200000 }
     ]
   },
   {
@@ -329,17 +329,17 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 19,
-    "description": "Listen to millions of songs and podcasts on the go.",
+    "description": "Spotify allows you to stream millions of songs and podcasts anywhere. Create playlists, follow artists, and discover new music with personalized recommendations instantly.",
     "size": 130,
     "reviews": 95,
     "ratingAvg": 4.6,
     "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 800000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1500000 },
+      { "name": "5 star", "count": 83000000 },
       { "name": "4 star", "count": 9000000 },
-      { "name": "5 star", "count": 83000000 }
+      { "name": "3 star", "count": 1500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "1 star", "count": 800000 }
     ]
   },
   {
@@ -347,17 +347,17 @@
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 20,
-    "description": "Stream TV shows and movies, including Netflix Originals.",
+    "description": "Netflix lets you stream TV shows and movies anytime. Watch original content, enjoy offline downloads, and discover trending entertainment for your favorite genres globally.",
     "size": 180,
     "reviews": 85,
     "ratingAvg": 4.4,
     "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1000000 },
-      { "name": "3 star", "count": 4000000 },
+      { "name": "5 star", "count": 66000000 },
       { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 66000000 }
+      { "name": "3 star", "count": 4000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "1 star", "count": 2000000 }
     ]
   },
   {
@@ -365,17 +365,17 @@
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 21,
-    "description": "Shop millions of products and enjoy fast delivery worldwide.",
+    "description": "Amazon Shopping lets you browse millions of products worldwide. Enjoy fast delivery, secure payments, and discover daily deals, making online shopping convenient and reliable.",
     "size": 140,
     "reviews": 70,
     "ratingAvg": 4.5,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2000000 },
+      { "name": "5 star", "count": 58000000 },
       { "name": "4 star", "count": 9000000 },
-      { "name": "5 star", "count": 58000000 }
+      { "name": "3 star", "count": 2000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "1 star", "count": 1000000 }
     ]
   },
   {
@@ -383,17 +383,17 @@
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 22,
-    "description": "Book rides, order food, and move freely around your city.",
+    "description": "Uber allows you to book rides, order food, and move around your city easily. Enjoy safe, fast, and convenient transportation and delivery services at your fingertips.",
     "size": 160,
     "reviews": 55,
     "ratingAvg": 4.4,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1800000 },
+      { "name": "5 star", "count": 45000000 },
       { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 45000000 }
+      { "name": "3 star", "count": 1800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "1 star", "count": 900000 }
     ]
   },
   {
@@ -401,17 +401,17 @@
     "title": "PayPal",
     "companyName": "PayPal Mobile",
     "id": 23,
-    "description": "Send money securely and shop online with ease.",
+    "description": "PayPal helps you send money securely, pay online, and manage transactions easily. Keep your financial information safe while enjoying fast and reliable payment services.",
     "size": 120,
     "reviews": 42,
     "ratingAvg": 4.3,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 800000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 1200000 },
+      { "name": "5 star", "count": 35000000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 35000000 }
+      { "name": "3 star", "count": 1200000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "1 star", "count": 800000 }
     ]
   },
   {
@@ -419,17 +419,17 @@
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 24,
-    "description": "Discover new ideas, recipes, and creative inspiration.",
+    "description": "Pinterest inspires creativity by helping you discover ideas, recipes, and projects. Save, organize, and share your favorite content while exploring endless inspiration globally.",
     "size": 150,
     "reviews": 38,
     "ratingAvg": 4.6,
     "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1000000 },
+      { "name": "5 star", "count": 30000000 },
       { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 30000000 }
+      { "name": "3 star", "count": 1000000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "1 star", "count": 600000 }
     ]
   },
   {
@@ -437,17 +437,17 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 25,
-    "description": "Video conferencing made easy for business and personal meetings.",
+    "description": "Zoom provides easy video conferencing for personal and business meetings. Connect with colleagues, friends, and family with high-quality video, chat, and collaboration tools.",
     "size": 170,
     "reviews": 36,
     "ratingAvg": 4.3,
     "downloads": 11,
     "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 1200000 },
+      { "name": "5 star", "count": 28000000 },
       { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 28000000 }
+      { "name": "3 star", "count": 1200000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "1 star", "count": 700000 }
     ]
   },
   {
@@ -455,17 +455,17 @@
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 26,
-    "description": "Professional networking app to connect and grow your career.",
+    "description": "LinkedIn is a professional networking platform to connect with colleagues, find job opportunities, and grow your career. Share updates, build a network, and explore industry insights in a secure environment.",
     "size": 200,
     "reviews": 320,
     "ratingAvg": 4.4,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1100000 },
+      { "name": "5 star", "count": 25000000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 25000000 }
+      { "name": "3 star", "count": 1100000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "1 star", "count": 600000 }
     ]
   },
   {
@@ -473,17 +473,17 @@
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 27,
-    "description": "Join communities and explore topics you care about.",
+    "description": "Reddit is a platform to join communities, discuss topics, and explore content you care about. Share ideas, vote on posts, and engage in meaningful discussions with like-minded people globally.",
     "size": 160,
     "reviews": 31,
     "ratingAvg": 4.5,
-    "downloads":3,
+    "downloads": 3,
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 900000 },
+      { "name": "5 star", "count": 24000000 },
       { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 24000000 }
+      { "name": "3 star", "count": 900000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 400000 }
     ]
   },
   {
@@ -491,17 +491,17 @@
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 28,
-    "description": "Voice, video, and text chat for communities and friends.",
+    "description": "Discord provides voice, video, and text chat for communities, gamers, and friends. Organize servers, share media, and communicate seamlessly in a secure and interactive environment.",
     "size": 190,
     "reviews": 28,
     "ratingAvg": 4.7,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 600000 },
+      { "name": "5 star", "count": 23000000 },
       { "name": "4 star", "count": 4000000 },
-      { "name": "5 star", "count": 23000000 }
+      { "name": "3 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
   {
@@ -509,17 +509,17 @@
     "title": "Dropbox",
     "companyName": "Dropbox, Inc.",
     "id": 29,
-    "description": "Cloud storage and file sharing for all your documents and media.",
+    "description": "Dropbox offers cloud storage to store, share, and access your files from anywhere. Collaborate on documents, photos, and media safely and efficiently across devices.",
     "size": 130,
     "reviews": 200,
     "ratingAvg": 4.4,
     "downloads": 4,
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 800000 },
+      { "name": "5 star", "count": 14700000 },
       { "name": "4 star", "count": 4000000 },
-      { "name": "5 star", "count": 14700000 }
+      { "name": "3 star", "count": 800000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
   {
@@ -527,54 +527,52 @@
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 30,
-    "description": "Learn new languages with fun lessons and gamified challenges.",
+    "description": "Duolingo makes learning new languages fun and easy with gamified lessons. Track your progress, practice daily, and explore interactive exercises to build fluency effectively.",
     "size": 100,
     "reviews": 27,
     "ratingAvg": 4.7,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
+      { "name": "5 star", "count": 4000000 },
       { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 4000000 }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 }
     ]
-}
-,
+  },
   {
     "image": "https://i.ibb.co.com/VWZBGbCd/crome.jpg",
     "title": "Google Chrome",
     "companyName": "Google LLC",
     "id": 31,
-    "description": "Fast, secure, and easy-to-use web browser.",
+    "description": "Google Chrome is a fast, secure, and easy-to-use web browser. Browse the internet quickly, manage multiple tabs efficiently, and enjoy seamless integration with Google services.",
     "size": 200,
     "reviews": 15,
     "ratingAvg": 4.5,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 500000 },
+      { "name": "5 star", "count": 12000000 },
       { "name": "4 star", "count": 2000000 },
-      { "name": "5 star", "count": 12000000 }
+      { "name": "3 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "1 star", "count": 300000 }
     ]
   },
-  
   {
     "image": "https://i.ibb.co.com/TDVqQfgc/word.png",
     "title": "Microsoft Word",
     "companyName": "Microsoft Corporation",
     "id": 32,
-    "description": "Create and edit documents on the go with Microsoft Word.",
+    "description": "Microsoft Word allows you to create, edit, and format documents easily. Collaborate on files, add images and tables, and manage your work efficiently from any device.",
     "size": 180,
     "reviews": 800,
     "ratingAvg": 4.4,
     "downloads": 12,
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 180000 },
-      { "name": "3 star", "count": 400000 },
+      { "name": "5 star", "count": 5700000 },
       { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 5700000 }
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "1 star", "count": 200000 }
     ]
   },
   {
@@ -582,17 +580,17 @@
     "title": "Microsoft Excel",
     "companyName": "Microsoft Corporation",
     "id": 33,
-    "description": "Spreadsheet app for data analysis and charting.",
+    "description": "Microsoft Excel helps you create spreadsheets, analyze data, and visualize charts efficiently. Perform calculations, organize information, and share insights seamlessly across devices.",
     "size": 160,
     "reviews": 7500,
     "ratingAvg": 4.5,
     "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 180000 },
-      { "name": "2 star", "count": 160000 },
-      { "name": "3 star", "count": 380000 },
+      { "name": "5 star", "count": 5380000 },
       { "name": "4 star", "count": 1400000 },
-      { "name": "5 star", "count": 5380000 }
+      { "name": "3 star", "count": 380000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "1 star", "count": 180000 }
     ]
   }
  

@@ -1,14 +1,16 @@
-import React, { use, useState } from 'react';
+import React, { useState } from 'react';
 import Allapp from './Allapp';
 import { FaSearch } from "react-icons/fa";
 import Apperror from './Apperror';
+import { useLoaderData } from 'react-router';
 
-const Allapps = ({ allAppsfetch }) => {
+const Allapps = () => {
     const [search,setSearch]=useState("")
-    const allapps = use(allAppsfetch)
+    
+    const load=useLoaderData()
     const items=search.trim().toLocaleLowerCase()
-    const searchApp=items?allapps.filter(app=>app.title.toLocaleLowerCase().includes(items)):allapps
-    console.log(searchApp)
+    const searchApp=items?load.filter(app=>app.title.toLocaleLowerCase().includes(items)):load
+    
     
     return (
         <div className='text-center mt-[40px] px-2'>

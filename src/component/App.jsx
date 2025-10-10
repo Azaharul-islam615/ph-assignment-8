@@ -9,18 +9,16 @@ const App = ({app}) => {
     const handlecart=()=>{
         navigate(`/appdetail/${id}`)
     }
-    const { id,title,
-        description
-        , downloads, ratingAvg, image }=app
+    const { id,title,downloads, ratingAvg, image }=app
     return (
         <div onClick={handlecart} className="card bg-base-100 lg:w-72 shadow-sm p-3 ">
             <figure>
-                <img className='w-full rounded-xl h-[240px]  '
+                <img className='w-full rounded-xl h-[250px] mb-2 '
                     src={image} />
             </figure>
             <div className="card-body text-left p-0">
-                <h2 className="card-title font-semibold text-[20px] mt-3">{title}</h2>
-                <p className='text-[#001931] font-medium text-[16px]'>{description}</p>
+                <h2 className="card-title font-semibold text-[20px] mt-3 mb-3">{title}</h2>
+               
                 <div className='flex items-center justify-between mt-3'>
                     <div className='flex items-center gap-1 bg-[#F1F5E8] rounded-sm p-2 text-[#00D390] font-semibold text-[16px]'>
                         <GoDownload></GoDownload><h1>{downloads} M</h1>

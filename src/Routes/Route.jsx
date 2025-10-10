@@ -6,35 +6,40 @@ import Home from '../component/Home';
 import Allapps from '../component/Allapps';
 import Appdetail from '../component/Appdetail';
 import Installetion from '../component/Installetion';
-const appDataFetch=fetch("/app.json").then(res=>res.json())
-const allAppsfetch=fetch("/apps.json").then(res=>res.json())
 
+
+const allAppsfetch = fetch("/apps.json").then(res => res.json())
 
  export const router = createBrowserRouter([
    
+    
     {
         path: "/",
         Component:Root,
         errorElement:<Errorpage></Errorpage>,
         children:[
             {index:true,path:"/", 
-                element: <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-                    <Home appDataFetch={appDataFetch}></Home>
-                </Suspense>},
+                loader: () => fetch("/app.json"),
+                Component:Home
+            } , 
+                    
+                
                 {
                     path:"/apps",
-                    element: <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-                        <Allapps allAppsfetch={allAppsfetch}></Allapps>
-                   </Suspense>
+                    loader: () => fetch("/apps.json"),
+                    Component:Allapps
+                        
+                   
                 },
                 {path:"/appdetail/:id",
                 element: <Appdetail allAppsfetch={allAppsfetch}></Appdetail>
                 },
                 {
                     path:"/install",
-                    element: <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-                        <Installetion allAppsfetch={allAppsfetch}></Installetion>
-                    </Suspense>
+                    loader: () => fetch("/apps.json"),
+                     Component:Installetion
+                       
+                    
                 }
         ]
     }
