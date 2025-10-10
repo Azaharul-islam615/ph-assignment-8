@@ -1,16 +1,23 @@
-# React + Vite
+# অ্যাপ স্টোর ক্লোন (App Store Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## বিবরণ
+এই ওয়েব অ্যাপ্লিকেশনটি একটি রেসপন্সিভ অ্যাপ স্টোরের ক্লোন। ব্যবহারকারীরা এখানে বিভিন্ন অ্যাপ ব্রাউজ করতে, সার্চ করতে, ডাউনলোড করতে এবং রেটিং চার্ট দেখতে পারবেন। এছাড়া, ব্যবহারকারী অ্যাপ ইনস্টল করতে পারবে এবং ইনস্টল করা অ্যাপগুলো ** Installation** পেজে দেখতে ও আনইনস্টল করতে পারবে।  
 
-Currently, two official plugins are available:
+মূল ফিচারসমূহ:  
+- হোম পেজে ব্যানার, স্টেটস কার্ড এবং টপ অ্যাপস।  
+- অল অ্যাপস পেজে সার্চ এবং ফিল্টারিং।  
+- অ্যাপ ডিটেইল পেজে ইনস্টলেশন বাটন এবং রিভিউ চার্ট।  
+- লোকাল স্টোরেজে ইনস্টল করা অ্যাপ সংরক্ষণ।  
+- ডাউনলোড অনুযায়ী অ্যাপ সাজানো।  
+- রেসপন্সিভ ডিজাইন: মোবাইল, ট্যাবলেট ও ডেস্কটপ।  
+- কাস্টম লোডিং এবং এরর পেজ।  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## প্রযুক্তি
+- **React** – UI নির্মাণের জন্য  
+- **React Router** – পেজ নেভিগেশনের জন্য  
+- **Recharts** – চার্ট এবং ডেটা ভিজ্যুয়ালাইজেশনের জন্য  
+- **Tailwind CSS** – স্টাইলিং এবং রেসপন্সিভ ডিজাইনের জন্য  
+- **React Toastify** – ইনস্টলেশন বা আনইনস্টলেশন সাকসেস মেসেজ দেখানোর জন্য  
+- **LocalStorage** – ইনস্টল করা অ্যাপ সংরক্ষণের জন্য
+- **React-Icon** – আইকনগুলো ব্যবহার করেছি React icon theke 
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
